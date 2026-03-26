@@ -89,7 +89,7 @@ A custom application icon
 # Installation
 
 •	To run the project locally, we need to clone the repository using the following link:
-https://github.com/ST10261605/PocketGarden
+https://github.com/kianapillay/PocketGarden.git
 
 •	Once you have the link, open Android Studio, click “Clone Repository” and enter the repository link.
 
@@ -134,7 +134,7 @@ https://github.com/ST10261605/PocketGarden
 
 # GitHub Link
 
-https://github.com/ST10261605/PocketGarden
+https://github.com/kianapillay/PocketGarden.git
 
 # Demonstration Video
 
