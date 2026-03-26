@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178152955180",
+    "project_id": "pocketgarden-a76a5",
+    "storage_bucket": "pocketgarden-a76a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178152955180:android:8a7ed51c98c5370bcee089",
+        "android_client_info": {
+          "package_name": "com.example.pocketgarden"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7UnuWyTUKat0rouubJ_QDas2T-OJBQbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

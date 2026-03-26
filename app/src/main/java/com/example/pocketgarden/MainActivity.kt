@@ -1,0 +1,35 @@
+package com.example.pocketgarden
+
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+
+
+class MainActivity : AppCompatActivity() {
+
+    override fun attachBaseContext(newBase: Context) {
+        val savedLang = LocaleHelper.loadLocale(newBase)  // get saved language
+        val context = LocaleHelper.setLocale(newBase, savedLang)  // wrap context with locale
+        super.attachBaseContext(context)
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_main)
+
+        val getStarted = findViewById<Button?>(R.id.getStartedbtn)
+        getStarted.setOnClickListener(View.OnClickListener { v: View? ->
+            val intent = Intent(this@MainActivity, HomeActivity::class.java)
+            startActivity(intent)
+            finish()
+        })
+    }
+}
